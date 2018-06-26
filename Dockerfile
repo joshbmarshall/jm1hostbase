@@ -1,4 +1,4 @@
-FROM hyperknot/baseimage16:1.0.4
+FROM hyperknot/baseimage16
 
 ENV DEBIAN_FRONTEND=noninteractive \
     LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8 TERM=xterm container=docker
